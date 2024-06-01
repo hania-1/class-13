@@ -1,66 +1,66 @@
- //Enums
+// Enums
 
-//  enum Direction {
-//     Up,
-//     Down,
-//     Left,
-//     Right
-// }
+ enum Direction {
+    Up,
+    Down,
+    Left,
+    Right
+}
 
-// enum Direction {
-//     Up1 =10,
-//     Down2= "hi",
-//     Left3 = "wassup",
-//     Right4 = "sup"
-// }
-// let move : Direction = Direction.Up1
-//console.log(Direction[move])
-// console.log(move)
-// let move2 : Direction = Direction.Down2
-// console.log(move2)
+enum Direction {
+    Up1 =10,
+    Down2= "hi",
+    Left3 = "wassup",
+    Right4 = "sup"
+}
+let move : Direction = Direction.Up1
+console.log(Direction[move])
+console.log(move)
+let move2 : Direction = Direction.Down2
+console.log(move2)
 
 //Data types (any, unknown ,never)
 
-// let value : any 
-// value = ' hi'
-// value = true
+let value : any 
+value = ' hi'
+value = true
 
-// let value2 : unknown
-// value = 'hello'
+let value2 : unknown
+value = 'hello'
 
-// if (typeof value === 'string'){
-//     console.log(value.toUpperCase())
-// }
+if (typeof value === 'string'){
+    console.log(value.toUpperCase())
+}
 
-// let value3 : never 
-// function error(message: string): never {
-//     throw new Error(message); // This function never returns
-//}
+let value3 : never 
+function error(message: string): never {
+    throw new Error(message); // This function never returns
+}
 
-// function infiniteLoop(): never {
-//     while (true) {} // This function never ends
-// }
+function infiniteLoop(): never {
+    while (true) {} // This function never ends
+}
 
 
 //Type Assertion
 
-// let myBio : any = "hania";
-// let MyBio = <string>myBio.length
-// console.log(MyBio)
+let myBio : any = "hania";
+let MyBio = <string>myBio.length
+console.log(MyBio)
 
-// let mystatus : any = 338;
-// let Mystatus = (mystatus as number)-99
-// console.log(Mystatus)
+let mystatus : any = 338;
+let Mystatus = (mystatus as number)-99
+console.log(Mystatus)
 
 // //Tuples
 
-// let mydata : [string, number, boolean]
-// mydata = ['hania' , 18, false]
-// console.log (mydata)
+let mydata : [string, number, boolean]
+mydata = ['hania' , 18, false]
+console.log (mydata)
 
-// let numerics : [number, number , number]
-// numerics = [11, 7 , 19]
-// console.log(numerics[1])
+let numerics : [number, number , number]
+numerics = [11, 7 , 19]
+console.log(numerics[1])
 
 //DEFAULT PARAMETER
 
